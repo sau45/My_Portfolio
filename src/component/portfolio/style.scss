@@ -1,0 +1,189 @@
+@import '../../mixins.scss';
+
+.portfolio{
+   
+   
+        .portfolio-image{
+            margin-top: 7rem;
+         
+           
+           
+            img{
+               
+                width: 209px;
+                display: block;
+                margin: 0 auto;
+                height: 19rem;
+                border-radius: 10px;
+                border: 1px solid white;
+                background-color: white;
+                padding: 2px;
+                @include md{
+                    width: 166px;
+                    display: block;
+                    margin: 0 auto;
+                    height: 14rem;
+                
+                    
+                 
+                }
+            }
+        }
+        .about{
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          .sub-about{
+            margin-top: 44px;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              width: 50%;
+              align-items: center;
+              justify-content: center;
+              @include md{
+                top: 18rem;
+                
+                      
+
+              }
+          }
+         
+
+        }
+        .space{
+            border: 1px solid white;
+            margin-top: 97px;
+            width: 91%;
+            margin-left: 50px;
+          
+            @include md{
+                margin-left: 18px;
+               
+            
+            }
+        }
+        .git-image{
+            text-align: center;
+            h1{
+
+                font-size: 30px;
+                margin-top: 36px;
+                @include md{
+                    font-size: 17px;
+                }
+            }
+           
+            img{
+
+                margin-left: 36px;
+                width: 78%;
+                margin-top: 18px;
+                height: 216px;
+                
+                border-radius: 9px;
+                background-color: white;
+                border: 1px solid white;
+                padding: 2px;
+
+            
+                @include md{
+                    margin-left: 36px;
+                }
+            }
+        }
+        .project{
+            text-align: center;
+            margin-top: 24px;
+        }
+        .highlight{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            @include md{
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+
+            }
+            .subhighlight{
+                width: 26%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                a{
+
+                    img{
+                        height: 327px;
+                        margin: 28px;
+                        width: 97%;
+                        padding: 1px;
+                        border: 1px solid white;
+                        background-color: white;
+                        border-radius: 7px;
+                        @include md{
+                            
+                        
+                        width: 20rem;
+
+                        }
+                       
+                        
+                    }
+                }
+              
+
+            }
+          
+        }
+        .connectwithme{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-size: 30px;
+                margin-top: 23px;
+                @include md{
+                    font-size: 17px;
+                }
+            }
+            .connectimage{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              
+                
+                a{
+                    display: flex;
+                    position: relative;
+                  
+                    width: 14%;
+                    @include md{
+                        position: relative;
+                        left: 0;
+                        width: 166px;
+                        margin: 6px;
+                    }
+                    img{
+                        width: 19%;
+                        display: flex;
+                        flex-direction: row;
+                        margin-right: 25px;
+                        border: 1px solid white;
+                        border-radius: 27px;
+        
+                    }
+
+                }
+               
+            }
+        }
+        
+    }
+

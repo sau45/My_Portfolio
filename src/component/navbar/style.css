@@ -1,0 +1,110 @@
+.main-navbar {
+  width: 100%;
+  border: 1px solid white;
+  position: relative;
+  height: 48px;
+  top: 23px;
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar {
+    width: 100%;
+  }
+}
+.main-navbar .menu {
+  visibility: hidden;
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .menu {
+    visibility: visible;
+    font-size: 30px;
+    left: 38px;
+    position: absolute;
+    top: 8px;
+    color: white;
+  }
+}
+.main-navbar .menuClose {
+  color: white;
+  margin-left: 38px;
+  margin-top: 13px;
+}
+.main-navbar .sub-navbar {
+  display: flex;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .sub-navbar {
+    position: relative;
+    top: 13px;
+    border: 2px solid white;
+    height: 600%;
+    width: 100%;
+    background-color: black;
+  }
+}
+.main-navbar .sub-navbar .left-nav {
+  position: absolute;
+  top: 8px;
+}
+.main-navbar .sub-navbar .left-nav ul {
+  display: flex;
+  list-style: none;
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .sub-navbar .left-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main-navbar .sub-navbar .left-nav ul li {
+  margin-left: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .sub-navbar .left-nav ul li {
+    margin-bottom: 4px;
+  }
+}
+.main-navbar .sub-navbar .right-nav {
+  position: absolute;
+  right: 3rem;
+  top: 9px;
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .sub-navbar .right-nav {
+    left: 0;
+    top: 94px;
+  }
+}
+.main-navbar .sub-navbar .right-nav ul {
+  display: flex;
+  list-style: none;
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .sub-navbar .right-nav ul {
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.main-navbar .sub-navbar .right-nav ul li {
+  margin-left: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .sub-navbar .right-nav ul li {
+    margin-left: 30px;
+    width: 96px;
+    margin-bottom: 4px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .sub-navbar.visible {
+    visibility: visible;
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-navbar .sub-navbar.not-visible {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */

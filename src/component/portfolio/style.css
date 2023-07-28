@@ -1,0 +1,126 @@
+.portfolio .portfolio-image {
+  margin-top: 7rem;
+}
+.portfolio .portfolio-image img {
+  width: 209px;
+  display: block;
+  margin: 0 auto;
+  height: 19rem;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 2px;
+}
+@media only screen and (max-width: 768px) {
+  .portfolio .portfolio-image img {
+    width: 166px;
+    display: block;
+    margin: 0 auto;
+    height: 14rem;
+  }
+}
+.portfolio .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio .about .sub-about {
+  margin-top: 44px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .portfolio .about .sub-about {
+    top: 18rem;
+  }
+}
+.portfolio .space {
+  border: 1px solid white;
+  margin-top: 24px;
+  width: 91%;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .portfolio .space {
+    margin-left: 18px;
+  }
+}
+.portfolio .git-image {
+  text-align: center;
+}
+.portfolio .git-image h1 {
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .portfolio .git-image h1 {
+    font-size: 17px;
+  }
+}
+.portfolio .git-image img {
+  margin-left: 36px;
+  width: 78%;
+  margin-top: 18px;
+  height: 121px;
+  border-radius: 9px;
+  background-color: white;
+  border: 1px solid white;
+  padding: 2px;
+}
+@media only screen and (max-width: 768px) {
+  .portfolio .git-image img {
+    margin-left: 36px;
+  }
+}
+.portfolio .highlight {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portfolio .highlight img {
+  height: 10%;
+  margin: 46px;
+  width: 21%;
+  padding: 9px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 7px;
+}
+@media only screen and (max-width: 768px) {
+  .portfolio .highlight img {
+    margin: 26px;
+  }
+}
+.portfolio .connectwithme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio .connectwithme h1 {
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .portfolio .connectwithme h1 {
+    font-size: 17px;
+  }
+}
+.portfolio .connectwithme .connectimage {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio .connectwithme .connectimage img {
+  width: 4%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 25px;
+  border: 1px solid white;
+  border-radius: 27px;
+}/*# sourceMappingURL=style.css.map */

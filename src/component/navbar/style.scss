@@ -1,0 +1,117 @@
+@import '../../mixins.scss';
+.main-navbar{
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+    height: 48px;
+    top: 23px;
+    
+    @include md{
+        width: 100%;
+    }
+
+    .menu{
+        visibility: hidden;
+        @include md{
+            visibility:visible;
+            font-size: 30px;
+            left: 38px;
+            position: absolute;
+            top: 8px;
+            color: white;
+        }
+    }
+    .menuClose{
+        color: white;
+        margin-left: 38px;
+        margin-top: 13px;
+       
+    }
+    .sub-navbar{
+        display: flex;
+        color: white;
+        @include md{
+           
+            position: relative;
+            top: 13px;
+            border: 2px solid white;
+            height: 600%;
+            width: 100%;
+            background-color: black;
+           
+         
+        }
+       
+      
+       
+        .left-nav{
+            position: absolute;
+            top: 8px;
+            @include md{
+               
+                
+                
+            }
+        
+          
+            ul{
+                display: flex;
+                list-style: none;
+                @include md{
+                    display: flex;
+                    flex-direction: column;
+                  }
+                li{
+                    margin-left: 30px;
+                    @include md{
+                        margin-bottom: 4px;
+                    }
+                }
+
+            }
+        }
+        .right-nav{
+            position: absolute;
+            right: 3rem;
+            top: 9px;
+            @include md{
+                
+                left: 0;
+                top: 60px;
+              
+            }
+            ul{
+                display: flex;
+                list-style: none;
+                @include md{
+                    position: absolute;
+                    left: 0;
+                    
+                    display: flex;
+                    flex-direction: column;
+                  }
+                li{
+                    margin-left: 30px;
+                    @include md{
+                        margin-left: 30px;
+                        width: 96px;
+                        margin-bottom: 4px;
+                    }
+                }
+
+            }
+        }
+        &.visible{
+            @include md{
+                visibility: visible;
+                z-index: 1;
+            }
+        }
+        &.not-visible{
+            @include md{
+                visibility: hidden;
+            }
+        }
+    }
+   
+}
